@@ -65,7 +65,7 @@ function result(playerSelection) {
 // SHOW RESULT MESSAGE
 function resultMessage(winner, selection) {
     const div = document.createElement("div")
-    div.classList.add("alert", "text-center", "h3")
+    div.classList.add("alert", "text-center", "h5")
     if (winner === "computer") {
         div.innerText = `Computer choose ${selection}
     Computer is the winner`
@@ -83,7 +83,7 @@ function resultMessage(winner, selection) {
     message.append(div)
     setTimeout(() => {
         div.remove()
-    }, 3000)
+    }, 2000)
 }
 
 function history(computerSelection,playerSelection,result) {
@@ -135,7 +135,7 @@ playerHistory.insertBefore(pli, playerHistory.childNodes[0]);
 
 function icons(selection) {
     const r = document.createElement("i")
-    r.classList.add("far", "fa-hand-rock", "rock")
+    r.classList.add("far", "fa-hand-rock", "rock" ,"text-center")
     const p = document.createElement("i")
     p.classList.add("far", "fa-hand-paper", "paper")
     const s = document.createElement("i")
