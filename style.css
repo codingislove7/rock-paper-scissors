@@ -1,26 +1,26 @@
 .rock{
-   font-size: 3rem; 
+   font-size: 2rem; 
    transition: 0.3s;
 }
 .rock:hover{
-    font-size: 6rem; 
+    font-size: 5rem; 
     cursor: pointer;
     
 }
 .paper{
-    font-size: 3rem; 
+    font-size: 2rem; 
     transition: 0.3s;
  }
  .paper:hover{
-    font-size: 6rem; 
+    font-size: 5rem; 
     cursor: pointer;
 }
  .scissors{
-    font-size: 3rem; 
+    font-size: 2rem; 
     transition: 0.3s;
  }
  .scissors:hover{
-    font-size: 6rem; 
+    font-size: 5rem; 
     cursor: pointer;
 }
 ul {
