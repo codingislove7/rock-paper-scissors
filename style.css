@@ -1,0 +1,35 @@
+.rock{
+   font-size: 3rem; 
+   transition: 0.3s;
+}
+.rock:hover{
+    font-size: 6rem; 
+    cursor: pointer;
+    
+}
+.paper{
+    font-size: 3rem; 
+    transition: 0.3s;
+ }
+ .paper:hover{
+    font-size: 6rem; 
+    cursor: pointer;
+}
+ .scissors{
+    font-size: 3rem; 
+    transition: 0.3s;
+ }
+ .scissors:hover{
+    font-size: 6rem; 
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+}
+.options{
+    padding-top: 4rem;
+}
+li{
+    margin: 2rem;
+    color: red
+}
